@@ -21,5 +21,13 @@ ensure_omarchy_plugin \
 ensure_omarchy_plugin \
   "io.github.aryan-techie.todoist" \
   "https://github.com/Aryan-Techie/omarchy-todoist.git"
+ensure_omarchy_plugin \
+  "qs-yadm" \
+  "https://github.com/pomartel/qs-yadm.git"
+
+omarchy plugin enable \
+  "qs-yadm" \
+  --section right \
+  --after "io.github.aryan-techie.todoist"
 
 unset -f ensure_omarchy_plugin

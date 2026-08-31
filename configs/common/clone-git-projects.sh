@@ -25,4 +25,5 @@ fi
 
 clone_if_missing "git@github.com:pomartel/sudomarchy"
 clone_if_missing "git@github.com:pomartel/intemporel"
+clone_if_missing "git@github.com:pomartel/qs-yadm"
 clone_if_missing "git@git.dti.crosemont.quebec:pmartel/markdown-export.git" "markdown"
