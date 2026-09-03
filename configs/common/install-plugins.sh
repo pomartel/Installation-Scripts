@@ -19,6 +19,9 @@ ensure_omarchy_plugin \
   "intemporel" \
   "https://github.com/pomartel/intemporel.git"
 ensure_omarchy_plugin \
+  "local.idle-power" \
+  "https://github.com/pomartel/idle-power.git"
+ensure_omarchy_plugin \
   "io.github.aryan-techie.todoist" \
   "https://github.com/Aryan-Techie/omarchy-todoist.git"
 ensure_omarchy_plugin \
