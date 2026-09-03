@@ -141,7 +141,7 @@ Current config scripts:
 - `common/copy-sudoers-rules.sh`: Writes `/etc/sudoers.d/custom-sudoers-rules` with custom sudo timeout and tty ticket behavior.
 - `common/create-dropbox-symlinks.sh`: Replaces local folders if needed and symlinks `Documents`, `Pictures`, `Videos`, and `Cours` to Dropbox.
 - `common/disable-plocate.sh`: Masks `plocate-updatedb.timer` when it is active.
-- `common/install-plugins.sh`: Installs and enables the configured Omarchy plugins, including `local.idle-power` from GitHub.
+- `common/install-plugins.sh`: Installs and enables the configured Omarchy plugins, including `idle-power` from GitHub.
 - `common/remove-default-apps.sh`: Removes selected default Omarchy web apps, drops `signal-desktop` and `alacritty`, and deletes `~/Projects/tries`.
 - `common/set-default-font.sh`: Sets the Omarchy font to `JetBrainsMonoNL Nerd Font` when needed.
 - `lenovo/enable-config-backup.sh`: Enables the `config-backup.timer` user service when it is not already active.
