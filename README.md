@@ -95,7 +95,6 @@ Current package scripts:
 - `common/spotify.sh`: Installs Spotify using the Omarchy 4 service installer.
 - `common/spotifyd.sh`: Installs and enables the Spotify daemon.
 - `common/teams.sh`: Installs the Microsoft Teams web app if its desktop entry is missing.
-- `common/todoist.sh`: Installs the official Todoist CLI (`@doist/todoist-cli`, command `td`) globally with npm.
 - `common/trash.sh`: Installs `trash-cli`.
 - `common/typora.sh`: Installs Typora.
 - `common/voxtype.sh`: Installs Voxtype and registers its user service.
